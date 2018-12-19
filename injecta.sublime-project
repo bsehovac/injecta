@@ -1,0 +1,21 @@
+{
+  "build_systems":
+  [
+    {
+      "file_patterns":
+      [ "*.js", "*.scss" ],
+      "name": "Rollup",
+      "shell_cmd": "rollup -c rollup.config.js",
+      "working_dir": "${project_path}"
+    }
+  ],
+  "folders":
+  [
+    {
+      "path": "."
+    }
+  ],
+  "settings":
+  {
+  }
+}
