@@ -3,21 +3,16 @@ const style = chrome.extension.getURL('inject/style.css')
 
 chrome.browserAction.onClicked.addListener(tab => {
 
-    var data = { script, style }
-
     chrome.tabs.executeScript(tab.id, {
       code: `
         typeof window.injecta === 'undefined' && (window.injecta = {
           started: false,
-          files: { script: '${script}', style: '${style}'},
-          cache: {},
+          files: { script: '${script}', style: '${style}' },
           dom: {},
-          interval: 500,
+          interval: 250,
         })`
     }, () => {
       chrome.tabs.executeScript(tab.id, { file: 'inject.js' });
     });
-
-    injected = true
 
 });

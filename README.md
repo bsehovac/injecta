@@ -1,5 +1,5 @@
 # Injecta
-**Window > Extensions**
+Go to **Window > Extensions** in Chrome
 
 Enable **Developer mode** in top right corner
 
@@ -7,12 +7,8 @@ Click **Load unpacked** in top left corner
 
 Select **injecta** project folder
 
-Install rollup and dev dependencies:
-**npm i rollup -g**
-**npm i**
+Go to **injecta** project folder, install rollup and dev dependencies: **npm i rollup -g**, **npm i**
 
-Run:
-**npm run watch** to watch or
-**npm run build** to build
+Open **injecta.sublime-project** and build with **CMD + B**, or run **npm run watch** to watch for file changes and auto build, or run **npm run build** to build and minify
 
-Click on **Inject** icon in Chrome toolbar to inject js and css and watch for changes 
+Click on **Inject** icon in Chrome toolbar to inject JavaScript and CSS and watch for changes
