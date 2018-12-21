@@ -16,12 +16,10 @@
   "devDependencies": {
     "@babel/core": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
+    "rollup": "^0.68.0",
+    "rollup-watch": "^4.3.1",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-scss": "^0.4.0",
-    "rollup-plugin-uglify-es": "0.0.1",
-    "rollup-watch": "^4.3.1"
-  },
-  "dependencies": {
-    "rollup": "^0.68.0"
+    "rollup-plugin-uglify-es": "0.0.1"
   }
 }

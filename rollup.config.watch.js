@@ -1,5 +1,3 @@
-import babel from 'rollup-plugin-babel';
-import uglify from 'rollup-plugin-uglify-es';
 import scss from 'rollup-plugin-scss'
 
 export default [

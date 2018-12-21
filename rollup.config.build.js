@@ -1,13 +1,13 @@
 import babel from 'rollup-plugin-babel';
-import uglify from 'rollup-plugin-uglify-es';
+// import uglify from 'rollup-plugin-uglify-es';
 import scss from 'rollup-plugin-scss'
 
 export default [
   {
     input: `./script/script.js`,
-    plugins:[
+    plugins: [
       babel({ exclude: 'node_modules/**' }),
-      uglify(),
+      // uglify(),
       scss({ output: './inject/style.css' })
     ],
     output: {
